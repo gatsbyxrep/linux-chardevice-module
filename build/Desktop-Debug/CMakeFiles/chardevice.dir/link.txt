@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/chardevice.dir/main.c.o -o chardevice
