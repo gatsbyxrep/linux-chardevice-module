@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/chardevice.dir/main.c.o -o chardevice
+/usr/bin/gcc -g CMakeFiles/chardevice.dir/chardevice.c.o CMakeFiles/chardevice.dir/test_chardevice.c.o -o chardevice

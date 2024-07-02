@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/chardevice.dir/main.c.o"
-  "CMakeFiles/chardevice.dir/main.c.o.d"
+  "CMakeFiles/chardevice.dir/chardevice.c.o"
+  "CMakeFiles/chardevice.dir/chardevice.c.o.d"
+  "CMakeFiles/chardevice.dir/test_chardevice.c.o"
+  "CMakeFiles/chardevice.dir/test_chardevice.c.o.d"
   "chardevice"
   "chardevice.pdb"
 )

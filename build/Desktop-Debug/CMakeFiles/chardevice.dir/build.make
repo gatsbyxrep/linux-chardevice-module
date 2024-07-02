@@ -69,31 +69,47 @@ include CMakeFiles/chardevice.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/chardevice.dir/flags.make
 
-CMakeFiles/chardevice.dir/main.c.o: CMakeFiles/chardevice.dir/flags.make
-CMakeFiles/chardevice.dir/main.c.o: /home/gatsbyx/projects/chardevice/main.c
-CMakeFiles/chardevice.dir/main.c.o: CMakeFiles/chardevice.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gatsbyx/projects/chardevice/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/chardevice.dir/main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/chardevice.dir/main.c.o -MF CMakeFiles/chardevice.dir/main.c.o.d -o CMakeFiles/chardevice.dir/main.c.o -c /home/gatsbyx/projects/chardevice/main.c
+CMakeFiles/chardevice.dir/chardevice.c.o: CMakeFiles/chardevice.dir/flags.make
+CMakeFiles/chardevice.dir/chardevice.c.o: /home/gatsbyx/projects/chardevice/chardevice.c
+CMakeFiles/chardevice.dir/chardevice.c.o: CMakeFiles/chardevice.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gatsbyx/projects/chardevice/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/chardevice.dir/chardevice.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/chardevice.dir/chardevice.c.o -MF CMakeFiles/chardevice.dir/chardevice.c.o.d -o CMakeFiles/chardevice.dir/chardevice.c.o -c /home/gatsbyx/projects/chardevice/chardevice.c
 
-CMakeFiles/chardevice.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chardevice.dir/main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gatsbyx/projects/chardevice/main.c > CMakeFiles/chardevice.dir/main.c.i
+CMakeFiles/chardevice.dir/chardevice.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chardevice.dir/chardevice.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gatsbyx/projects/chardevice/chardevice.c > CMakeFiles/chardevice.dir/chardevice.c.i
 
-CMakeFiles/chardevice.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chardevice.dir/main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gatsbyx/projects/chardevice/main.c -o CMakeFiles/chardevice.dir/main.c.s
+CMakeFiles/chardevice.dir/chardevice.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chardevice.dir/chardevice.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gatsbyx/projects/chardevice/chardevice.c -o CMakeFiles/chardevice.dir/chardevice.c.s
+
+CMakeFiles/chardevice.dir/test_chardevice.c.o: CMakeFiles/chardevice.dir/flags.make
+CMakeFiles/chardevice.dir/test_chardevice.c.o: /home/gatsbyx/projects/chardevice/test_chardevice.c
+CMakeFiles/chardevice.dir/test_chardevice.c.o: CMakeFiles/chardevice.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gatsbyx/projects/chardevice/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/chardevice.dir/test_chardevice.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/chardevice.dir/test_chardevice.c.o -MF CMakeFiles/chardevice.dir/test_chardevice.c.o.d -o CMakeFiles/chardevice.dir/test_chardevice.c.o -c /home/gatsbyx/projects/chardevice/test_chardevice.c
+
+CMakeFiles/chardevice.dir/test_chardevice.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/chardevice.dir/test_chardevice.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gatsbyx/projects/chardevice/test_chardevice.c > CMakeFiles/chardevice.dir/test_chardevice.c.i
+
+CMakeFiles/chardevice.dir/test_chardevice.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/chardevice.dir/test_chardevice.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gatsbyx/projects/chardevice/test_chardevice.c -o CMakeFiles/chardevice.dir/test_chardevice.c.s
 
 # Object files for target chardevice
 chardevice_OBJECTS = \
-"CMakeFiles/chardevice.dir/main.c.o"
+"CMakeFiles/chardevice.dir/chardevice.c.o" \
+"CMakeFiles/chardevice.dir/test_chardevice.c.o"
 
 # External object files for target chardevice
 chardevice_EXTERNAL_OBJECTS =
 
-chardevice: CMakeFiles/chardevice.dir/main.c.o
+chardevice: CMakeFiles/chardevice.dir/chardevice.c.o
+chardevice: CMakeFiles/chardevice.dir/test_chardevice.c.o
 chardevice: CMakeFiles/chardevice.dir/build.make
 chardevice: CMakeFiles/chardevice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gatsbyx/projects/chardevice/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable chardevice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gatsbyx/projects/chardevice/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable chardevice"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chardevice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
