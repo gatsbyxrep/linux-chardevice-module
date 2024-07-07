@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/gatsbyx/projects/chardevice/chardevice.c" "CMakeFiles/chardevice.dir/chardevice.c.o" "gcc" "CMakeFiles/chardevice.dir/chardevice.c.o.d"
-  "/home/gatsbyx/projects/chardevice/test_chardevice.c" "CMakeFiles/chardevice.dir/test_chardevice.c.o" "gcc" "CMakeFiles/chardevice.dir/test_chardevice.c.o.d"
+  "/home/gatsbyx/projects/chardevice/tests/test_chardevice.c" "CMakeFiles/chardevice.dir/tests/test_chardevice.c.o" "gcc" "CMakeFiles/chardevice.dir/tests/test_chardevice.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

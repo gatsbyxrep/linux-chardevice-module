@@ -198,29 +198,29 @@ chardevice.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/chardevice.c.s
 .PHONY : chardevice.c.s
 
-test_chardevice.o: test_chardevice.c.o
-.PHONY : test_chardevice.o
+tests/test_chardevice.o: tests/test_chardevice.c.o
+.PHONY : tests/test_chardevice.o
 
 # target to build an object file
-test_chardevice.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/test_chardevice.c.o
-.PHONY : test_chardevice.c.o
+tests/test_chardevice.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/tests/test_chardevice.c.o
+.PHONY : tests/test_chardevice.c.o
 
-test_chardevice.i: test_chardevice.c.i
-.PHONY : test_chardevice.i
+tests/test_chardevice.i: tests/test_chardevice.c.i
+.PHONY : tests/test_chardevice.i
 
 # target to preprocess a source file
-test_chardevice.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/test_chardevice.c.i
-.PHONY : test_chardevice.c.i
+tests/test_chardevice.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/tests/test_chardevice.c.i
+.PHONY : tests/test_chardevice.c.i
 
-test_chardevice.s: test_chardevice.c.s
-.PHONY : test_chardevice.s
+tests/test_chardevice.s: tests/test_chardevice.c.s
+.PHONY : tests/test_chardevice.s
 
 # target to generate assembly for a file
-test_chardevice.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/test_chardevice.c.s
-.PHONY : test_chardevice.c.s
+tests/test_chardevice.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/tests/test_chardevice.c.s
+.PHONY : tests/test_chardevice.c.s
 
 # Help Target
 help:
@@ -238,9 +238,9 @@ help:
 	@echo "... chardevice.o"
 	@echo "... chardevice.i"
 	@echo "... chardevice.s"
-	@echo "... test_chardevice.o"
-	@echo "... test_chardevice.i"
-	@echo "... test_chardevice.s"
+	@echo "... tests/test_chardevice.o"
+	@echo "... tests/test_chardevice.i"
+	@echo "... tests/test_chardevice.s"
 .PHONY : help
 
 
