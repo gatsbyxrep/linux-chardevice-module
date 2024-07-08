@@ -1,0 +1,1 @@
+savedcmd_/home/gatsbyx/projects/chardevice/chardevice.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/gatsbyx/projects/chardevice/chardevice.ko /home/gatsbyx/projects/chardevice/chardevice.o /home/gatsbyx/projects/chardevice/chardevice.mod.o

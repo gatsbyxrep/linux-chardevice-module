@@ -174,29 +174,53 @@ chardevice/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/build
 .PHONY : chardevice/fast
 
-main.o: main.c.o
-.PHONY : main.o
+chardevice.o: chardevice.c.o
+.PHONY : chardevice.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/main.c.o
-.PHONY : main.c.o
+chardevice.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/chardevice.c.o
+.PHONY : chardevice.c.o
 
-main.i: main.c.i
-.PHONY : main.i
+chardevice.i: chardevice.c.i
+.PHONY : chardevice.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/main.c.i
-.PHONY : main.c.i
+chardevice.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/chardevice.c.i
+.PHONY : chardevice.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+chardevice.s: chardevice.c.s
+.PHONY : chardevice.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/main.c.s
-.PHONY : main.c.s
+chardevice.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/chardevice.c.s
+.PHONY : chardevice.c.s
+
+tests/test_chardevice.o: tests/test_chardevice.c.o
+.PHONY : tests/test_chardevice.o
+
+# target to build an object file
+tests/test_chardevice.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/tests/test_chardevice.c.o
+.PHONY : tests/test_chardevice.c.o
+
+tests/test_chardevice.i: tests/test_chardevice.c.i
+.PHONY : tests/test_chardevice.i
+
+# target to preprocess a source file
+tests/test_chardevice.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/tests/test_chardevice.c.i
+.PHONY : tests/test_chardevice.c.i
+
+tests/test_chardevice.s: tests/test_chardevice.c.s
+.PHONY : tests/test_chardevice.s
+
+# target to generate assembly for a file
+tests/test_chardevice.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chardevice.dir/build.make CMakeFiles/chardevice.dir/tests/test_chardevice.c.s
+.PHONY : tests/test_chardevice.c.s
 
 # Help Target
 help:
@@ -211,9 +235,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... chardevice"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... chardevice.o"
+	@echo "... chardevice.i"
+	@echo "... chardevice.s"
+	@echo "... tests/test_chardevice.o"
+	@echo "... tests/test_chardevice.i"
+	@echo "... tests/test_chardevice.s"
 .PHONY : help
 
 

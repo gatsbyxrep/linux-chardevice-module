@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-d4af3ae1850b8aeba14d.json",
+					"jsonFile" : "directory-.-Debug-57c6eb1cba58bec3b863.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "chardevice::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-chardevice-Debug-c86583f6cecae50ada7e.json",
+					"jsonFile" : "target-chardevice-Debug-052b5f26f5cd9d70c0de.json",
 					"name" : "chardevice",
 					"projectIndex" : 0
 				}

@@ -1,0 +1,1 @@
+savedcmd_/home/gatsbyx/projects/chardevice/chardevice.mod := printf '%s\n'   chardevice.o | awk '!x[$$0]++ { print("/home/gatsbyx/projects/chardevice/"$$0) }' > /home/gatsbyx/projects/chardevice/chardevice.mod

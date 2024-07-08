@@ -1,0 +1,1 @@
+savedcmd_/home/gatsbyx/projects/chardevice/Module.symvers :=  scripts/mod/modpost -M  -a    -N  -o /home/gatsbyx/projects/chardevice/Module.symvers -n -T /home/gatsbyx/projects/chardevice/modules.order -i Module.symvers -e 
